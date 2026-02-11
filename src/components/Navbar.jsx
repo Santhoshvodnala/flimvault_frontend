@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="/Watchlist"
+            to="/watchlist"
             className="relative text-lg font-medium text-slate-200 transition-all duration-300 hover:text-white after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-amber-400 after:left-0 after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full"
           >
             Watchlist
@@ -81,7 +81,7 @@ const Navbar = () => {
       <div>
         {!isAuthenticated ? (
           <Link
-            to="/Login"
+            to="/login"
             className="px-6 py-2.5 rounded-full text-base font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-slate-900 shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-105 transition-all duration-300"
           >
             Login
